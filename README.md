@@ -2,8 +2,13 @@
 
 1. Purpose Of Spring Boot
 
-2. Spring Core
+       --> Loose Coupling
+       --> Time Saving
+       --> Increases Productivity
+       etc.
+
+3. Spring Core
  
        --> Inversion Of Control
-       --> Dependency Injection
+       --> Dependency Injection with XML
    
