@@ -4,6 +4,6 @@
 
 2. Spring Core
  
-    --> Inversion Of Control
-    --> Dependency Injection
+       --> Inversion Of Control
+       --> Dependency Injection
    
