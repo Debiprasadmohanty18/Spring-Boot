@@ -7,7 +7,7 @@
        --> Increases Productivity
        etc.
 
-3. Spring Core
+2. Spring Core
  
        --> Inversion Of Control
        --> Dependency Injection with XML
