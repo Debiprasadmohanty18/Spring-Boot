@@ -18,4 +18,7 @@
        --> Autowiring
 
 4. Spring Core - 03
+
+       --> ApplicationContext (Eager Initialization)
+       --> BeanFactory (Lazy Initialization)
    
