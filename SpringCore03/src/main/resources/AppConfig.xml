@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="js" class="course.Servlet" primary="true"></bean>
+	<bean id="sb" class="course.Spring"></bean>
+	<bean id="jfs" class="course.JavaFullStack">
+	<!-- These two are Manually Dependency Injected or Manually Wiring -->
+		<property ref="js" name="sub"></property>               <!-- This One is Setter Injection-->
+		<!--<constructor-arg ref="js" name="sub"></constructor-arg>  This One is Constructor Argument Injection -->
+		
+	</bean>
+
+</beans>
