@@ -24,14 +24,23 @@
 
 5. Spring Core - 04
 
-         XML File :- 
+         ~ XML File :- 
               --> context:annotation-config
               --> context:component-scan base-package="Package-Name"
    
+         ~ StereoType Annotation - These Annotations are annotations which all are applied at the time of class level to inform spring framework to manage that particular class object.
+              |
+              |-->  * @Component - Takes care of creation of "Beans/Objects" & It's LifeCycle.
+                    * @Component + WebPage
+                          @Controller 
+                          @RestController
+                    * @Component + Business Logic      
+                          @Service
+                    * @Component + DataBase
+                          @Repository
+   
 
-         @Component - Takes care of creation of "Bean/Object" & It's LifeCycle.
-
-         Annotation Approach :-                                          
+         ~ Annotation Approach :-                                          
 
                => Application Layered Approach
                         --> Web Layer
