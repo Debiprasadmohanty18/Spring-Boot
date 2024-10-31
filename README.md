@@ -24,27 +24,32 @@
 
 5. Spring Core - 04
 
+         XML File :- 
+              --> context:annotation-config
+              --> context:component-scan base-package="Package-Name"
+   
+
+         @Component - Takes care of creation of "Bean/Object" & It's LifeCycle.
+
          Annotation Approach :-                                          
 
                => Application Layered Approach
                         --> Web Layer
                                * HTTP Request / HTTP Response (Web Related Query)
                                        @Component + WebPage
-                                              @Controller 
-                                              @RestController
+                                            @Controller 
+                                            @RestController
+   
                         --> Service Layer
                                * Business Logic (Actual Purpose Of Application)
                                        @Component + Business Logic      
-                                              @Service
+                                            @Service
+   
                         --> Reository/DAO Layer
                                * Database Connectivity (All Related to DataBase)
                                       @Component + DataBase
-                                             @Repository
-    
-
-          XML File :- 
-              --> context:annotation-config
-              --> context:component-scan base-package="Package-Name"
+                                            @Repository
+              
 
 7. Spring Core - 05
 
