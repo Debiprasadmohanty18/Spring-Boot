@@ -31,9 +31,9 @@
                                * HTTP Request
                                * HTTP Response
                         --> Service Layer
-                               * Business Logic
+                               * Business Logic (Actual Purpose Of Application)
                         --> Reository/DAO Layer
-                               * Database Connectivity
+                               * Database Connectivity (All Related to DataBase)
     
 
           XML File :- 
