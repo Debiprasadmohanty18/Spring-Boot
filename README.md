@@ -27,7 +27,13 @@
          Annotation Approach :-
 
                1 :- Application Layered Approach
-                        -->
+                        --> Web Layer
+                               * HTTP Request
+                               * HTTP Response
+                        --> Service Layer
+                               * Business Logic
+                        --> Reository/DAO Layer
+                               * Database Connectivity
     
 
           XML File :- 
