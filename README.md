@@ -24,7 +24,7 @@
 
 5. Spring Core - 04
 
-         Annotation Approach :-
+         Annotation Approach :-                                          
 
                => Application Layered Approach
                         --> Web Layer
