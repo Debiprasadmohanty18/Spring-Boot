@@ -21,4 +21,22 @@
 
        --> ApplicationContext (Eager Initialization)
        --> BeanFactory (Lazy Initialization)
+
+5. Spring Core - 04
+
+         Annotation Approach :-
+
+               1 :- Application Layered Approach
+                        -->
+    
+
+          XML File :- 
+              --> context:annotation-config
+              --> context:component-scan base-package="Package-Name"
+
+7. Spring Core - 05
+
+       --> Annotation Without XML file
+       --> @Component + 
+       
    
