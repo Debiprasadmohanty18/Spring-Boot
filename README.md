@@ -63,5 +63,7 @@
 7. Spring Core - 05
 
        --> Annotation Without XML file
+       --> Annotation Approach With Java Config
+              * ComponentScan(base-package = {"Package-Name"})
        
    
