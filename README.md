@@ -26,14 +26,20 @@
 
          Annotation Approach :-
 
-               1 :- Application Layered Approach
+               => Application Layered Approach
                         --> Web Layer
-                               * HTTP Request
-                               * HTTP Response
+                               * HTTP Request / HTTP Response (Web Related Query)
+                                       @Component + WebPage
+                                              @Controller 
+                                              @RestController
                         --> Service Layer
                                * Business Logic (Actual Purpose Of Application)
+                                       @Component + Business Logic      
+                                              @Service
                         --> Reository/DAO Layer
                                * Database Connectivity (All Related to DataBase)
+                                      @Component + DataBase
+                                             @Repository
     
 
           XML File :- 
