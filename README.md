@@ -65,5 +65,9 @@
        --> Annotation Without XML file
        --> Annotation Approach With Java Config
               * ComponentScan(base-package = {"Package-Name"})
+
+8. Spring Boot - 01
+
+       --> By Default & Custom Bean Count
        
    
