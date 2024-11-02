@@ -68,6 +68,6 @@
 
 8. Spring Boot - 01
 
-       --> By Default & Custom Bean Count
+       --> By Default & Custom "Bean/Object" Count.
        
    
